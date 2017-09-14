@@ -10,7 +10,7 @@ where:
   * Block is either II, IIA, IIR (Rb only), or IIF
   * SVN is the two-digit SVN [15-73], or "av", which is the average over all SVNs
   * REF is the reference clock (e.g., 'USN3', 'AMC2', or also 'RbIIR'). Can be "Hmas", which means averaged over all ground-station (H-maser) references.
-  *.ext is .psd for power spectrums, or .acf for autocorrelation
+  * .ext is .psd for power spectrums, or .acf for autocorrelation
   * label in this case in "1280-1959"
 
 These files are generated using the "processNoise" program.
