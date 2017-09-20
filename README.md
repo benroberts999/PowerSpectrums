@@ -17,6 +17,15 @@ These files are generated using the "processNoise" program.
 All functions are average over data from weeks 1280-1959 [18 July 2004 -- 29 July 2017].
 Days that had 10 or more missing data points were excluded from this analysis.
 
+## Easiest way to download PSD and ACF files:
+
+We don't need to track changes or anything, so we don't need to use git. Instead, just download and unzip:
+  * wget http://github.com/benroberts999/PowerSpectrums/archive/master.tar.gz
+  * tar xf master.tar.gz -C ./ --strip-components=1
+
+Then remove the old "master.tar.gz", we don't need it:
+  * rm master.tar.gz
+  
 ## PSD: power spectrums
 
 Header lines begin with '#'.
